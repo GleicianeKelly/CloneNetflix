@@ -19,7 +19,7 @@ body{
 
 
 
-header .conteiner{
+header .container{
     margin-left: 5px;
     display: flex;
     flex-direction: row;
@@ -45,13 +45,15 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50), 100%),url(imagens/imagem1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('../imagens/imagem-principal.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    
 
 }
 
@@ -86,7 +88,7 @@ header nav a:hover{
     margin-right: 8px;
 }
 
-.conteiner{
+.container{
     margin-left: 20px;
 }
 
@@ -98,4 +100,23 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+
+/*Página secundária*/
+
+.second-page{
+    background:  url('../imagens/palhaço.jpg');
+}
+
+.mensagem-um{
+    color: #E50914;
+    position: relative;
+    top: 230px;
+    left: 120px; 
+    font-size: 20px;  
 }
